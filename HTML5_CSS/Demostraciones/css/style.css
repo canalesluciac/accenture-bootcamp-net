@@ -10,3 +10,16 @@ body{
 #menu{
     background-color: aquamarine;
 }
+
+/*.bloque {
+    padding: 10px;
+    background: #ccc;
+    display: block;
+}*/
+
+.bloque {
+    padding: 10px;
+    background: #ccc;
+    display: inline-block;
+    width: 150px;
+    }
