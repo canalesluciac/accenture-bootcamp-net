@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(255,254,196);
+}
+
+.MainText{
+    color: blue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#menu{
+    background-color: aquamarine;
+}
