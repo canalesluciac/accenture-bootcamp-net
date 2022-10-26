@@ -85,3 +85,20 @@ h3 {
 .caja-6 {
     box-shadow: 1px 1px;
 }
+
+.div1 {
+    /*border: 10px solid #3EC483;*/
+    border: none;
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+}
+
+.div2 {
+    border: 10px solid #3EC483;
+    background: #5DEAA8;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
