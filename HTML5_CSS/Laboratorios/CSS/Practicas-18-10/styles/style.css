@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.caja {
+    background-color: yellow;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 50px 10px;
+    display: inline-block;
+}
+
+div {
+    border: black 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+div div{
+    border: none;
+    background-color: lightblue;
+    
+}
+
+#caso1 {
+    width: 200px;
+    padding-top: px;
+    border: 1px none;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 25px 10px rgba(255, 255, 0, 0.75), inset 0 0 30px 5px red;
+    /*background: radial-gradient(closest-corner,#e0e0e0 50%, 80%, red);*/
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.contenedor-1 {
+    border: none;
+    margin-top: 70px;
+    width: 300px;
+    padding: 4px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [left] 1fr [middle1] 1fr [middle2] 1fr [right];
+
+}
+
+.caja-1, .caja-2, .caja-3, .caja-4, .caja-5, .caja-6 {
+    display: inline;
+    background-color: #ccc;
+    box-shadow: #000;
+    width: 80px;
+    font-size: small;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.caja-1 {
+    box-shadow: -1px -2px 0px;
+}
+
+.caja-2 {
+    box-shadow: -1px -1px 4px 0px;
+}
+
+.caja-3 {
+    box-shadow: -2px -2px 0px 2px;
+}
+
+.caja-4 {
+    box-shadow: -2px -1px 5px 1px;
+}
+
+.caja-5 {
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.caja-6 {
+    box-shadow: 1px 1px;
+}
