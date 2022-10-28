@@ -1,0 +1,154 @@
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+/*----------HEADER----------*/
+h1{
+    text-align: center;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+   
+    font-family:'Poppins', sans-serif;
+    font-size: 5.5rem;
+    margin: 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: beige ;
+    border-radius: 70px;
+    
+  }
+
+  h1:hover {
+    color: white;
+  font-size: 7rem;
+  transition-property:all ;
+  transition-duration: 1s;
+    
+  }
+  
+/*----------BODY----------*/
+
+  body{
+    background-color: white;
+
+
+}
+/*----------NAV----------*/
+
+.nav-bar {
+  padding-top: 2rem;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+  
+}
+
+.nav-bar a {
+    font-size: 2rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: #02047a;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-bar a:hover{
+    font-size: 2.5rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+    color:#02047a ;
+  }
+
+  /*----------MAIN-IMG---------*/
+  #imagenes{
+    display: flex;
+  }
+  
+  #imagenes img{
+    width: 20%;
+    align-items: center;
+  }
+
+  /*----------INTRO----------*/
+  #desc{
+    background-color: #1c2c30;
+    text-align:center ;
+    color: white;
+    font-size: 2rem;
+    margin: 0%;
+    padding: 8px;
+}
+
+
+/*----------TEXTO----------*/
+#titulo{
+  font-size: 3rem;
+  text-align: center;
+  color: #00456b;
+}
+
+#titulo:hover
+{
+  font-size: 3.5rem;
+  color: rgb(15, 0, 112);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+#informacion{
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  columns: 2;
+  text-align: justify;
+  column-gap: 2em;
+ 
+  padding: 2em;
+  margin: auto;
+}
+
+#especies
+{
+  font-size: 2rem;
+  color: rgb(7, 7, 7);
+  margin: 40px;
+  text-align: justify;
+}
+
+
+
+
+
+/*----------FOOTER----------*/
+
+footer {
+  height: 8em;
+  background-color:#00456b; 
+  margin: 0;      
+} 
+footer #pie {
+  font-size: 1.5rem;
+  color: #e7eaf6;
+  padding: 0.2em 2em 1em 2em;
+  text-align: start;
+  line-height: 5px;
+}
+footer a{
+  color: white;
+}
+footer a:hover {color: #16005d;}
+
+
+
+
+
+
+
+
+
