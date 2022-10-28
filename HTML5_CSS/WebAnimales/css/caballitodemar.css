@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Urbanist', sans-serif;
+    background-color: #e7eaf6;
+}
+
+/* navegacion: */
+a {
+    color: #e7eaf6;
+    text-decoration: none;
+}
+a:hover { 
+    font-weight: 600;
+    transition: 0.5ms;
+ }
+
+.menu, footer {
+    background-color: #113f67;
+    width: 100%;
+    border-radius: 10px;
+}
+.menu {
+    height: 3em;
+    display: grid;
+    grid-template-columns: [left] 1fr [middle1] 1fr [middle2] 1fr [middle3] 1fr [right];   
+}
+.menu a {
+    font-size: 1.25em;
+    padding: 15px 0px 0px 35px;
+}
+
+.menu a:hover {
+    color: rgb(245, 243, 239);
+    font-size: 1.3rem;
+}
+
+
+/*header: */
+header {
+    text-align: center;
+    color: #113f67;
+    padding: 1.5em;
+}
+h1 { font-size: 4em; }
+
+header:hover {
+    font-size: 1.1rem;
+    transition: 1s ease-in-out;
+    /*background-color: #38598b;*/
+    color: #e7eaf6;
+    background-image: url(../images/caballito5.jpg);
+}
+
+
+/*main: */
+section {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+img {
+    float: left;
+    height: 13em;
+    margin: 0 15px 15px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+img:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: .2s ease-in-out;
+    filter: blur(5px);
+}
+
+#columnas{
+    columns: 3;
+    text-align: justify;
+    column-rule: solid 2px #38598b;
+    column-gap: 3em;
+    padding: 2em;
+    margin: auto;
+}
+
+.datos {
+    margin:auto;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.datos p{
+    position: absolute;
+}
+
+.imagenes {
+    display:inline-block;
+    margin:auto;
+}
+
+.imagenes img {
+    display: inline-block;
+    height: 15em;
+    padding-left: 0px;
+    border-radius: 0;
+    opacity: 0.5;
+    filter: blur(1px);
+}
+
+.imagenes img:hover {
+    opacity: 0.9;
+    filter: blur(0px);
+    transition: 0.2s;
+}
+
+
+/*footer: */
+footer {
+    height: 5em;       
+} 
+footer .credits {
+    font-size: 0.9em;
+    color: #e7eaf6;
+    padding: 0.2em 2em 1em 2em;
+    text-align: start;
+}
+footer a:hover {color: #7c9ed1;}
