@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #ffdd90;
+    background-image: url("https://cf.ltkcdn.net/es-feng-shui/images/orig/241562-1600x1030-peces-koi.jpg");
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+    font-size: 50px;
+    color: #ff8c00;
+    text-shadow: 2px 2px 8px #0c0b0b;
+    ;
+
+}
+
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff8c00;
+    font-weight: bold;
+    color: #2d2d2d;
+    font-size: 20px;
+    border: solid 1px #0c0b0b;
+}
+
+
+main {
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.subtitle{
+    margin: 8px;
+    color: #ff8c00;
+    text-shadow: 2px 2px 8px #0c0b0b;
+}
+
+.parrafo{
+ font-size: 1.2rem;
+ margin-bottom: 12px;
+}
+
+.video{
+    margin-top: 12px;
+    border-radius: 25px;
+}
+
+.strong{
+    color: #ff8c00;
+    text-shadow: 2px 2px 8px #0c0b0b;
+}
+
+/* Boxes Contenedoras */
+
+.box-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#boxContenedora {
+    background-color: #ff8c00;
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #0c0b0b;
+}
+
+/* Box Izquierda */
+
+#boxIzquierda {
+    border-radius: 25px;
+    background-color: cadetblue;
+    flex-grow: 2;
+    border: solid 1px orange;
+    padding: 12px;
+}
+
+
+/* Boxes Del Medio */
+
+.middle-column {
+    border-radius: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-column div {
+    border-radius: 25px;
+    background-color: cadetblue;
+    flex-grow: 1;
+    margin: 0 8px;
+    border: solid 1px orange;
+}
+
+.middle-column div+div {
+    border-radius: 25px;
+    background-color: cadetblue;
+    margin-top: 8px
+}
+
+/* Imagen Derecha */
+
+#boxImage {
+    border-radius: 25px;
+    background-color: cadetblue;
+    flex-grow: 1;
+    border: solid 1px orange;
+    min-width: 300px;
+}
+
+.image{
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Footer */
+
+.emails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  }
+   
+  .contacto {
+    color: #fff;
+  }
