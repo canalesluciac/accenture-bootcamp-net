@@ -35,7 +35,7 @@ namespace WindowsApp.Entidades
             get
             {
                 decimal _PrecioVenta = 0;
-                _PrecioVenta = this.PrecioBruto + Convert.ToDecimal(1+this.IVA);
+                _PrecioVenta = this.PrecioBruto * Convert.ToDecimal(1+this.IVA);
                 return _PrecioVenta;
             }
         }
