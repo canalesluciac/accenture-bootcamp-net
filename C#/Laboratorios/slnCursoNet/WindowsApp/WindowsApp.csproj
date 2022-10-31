@@ -46,17 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\DocumentoComercial.cs" />
+    <Compile Include="Entidades\Empresa.cs" />
+    <Compile Include="Entidades\Persona.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entidades\ClienteEmpresa.cs" />
     <Compile Include="Entidades\ClienteIndividuo.cs" />
     <Compile Include="Entidades\Factura.cs" />
     <Compile Include="Entidades\Producto.cs" />
-    <Compile Include="Entidades\Proveedor.cs" />
     <Compile Include="Entidades\Remito.cs" />
     <Compile Include="Entidades\Vendedor.cs" />
     <Compile Include="Models\Autor.cs" />

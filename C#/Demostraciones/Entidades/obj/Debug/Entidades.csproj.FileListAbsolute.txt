@@ -1,0 +1,6 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\Entidades\bin\Debug\Entidades.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\Entidades\obj\Debug\Entidades.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,9 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\NegocioDatos\bin\Debug\NegocioDatos.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\NegocioDatos\bin\Debug\NegocioDatos.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\NegocioDatos\bin\Debug\Entidades.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\NegocioDatos\bin\Debug\Entidades.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\NegocioDatos\obj\Debug\NegocioDatos.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\NegocioDatos\obj\Debug\NegocioDatos.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\NegocioDatos\obj\Debug\NegocioDatos.csproj.CopyComplete
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\NegocioDatos\obj\Debug\NegocioDatos.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\NegocioDatos\obj\Debug\NegocioDatos.pdb
