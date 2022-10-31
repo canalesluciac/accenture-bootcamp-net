@@ -1,0 +1,11 @@
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\bin\Debug\WindowsApp.exe.config
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\bin\Debug\WindowsApp.exe
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\bin\Debug\WindowsApp.pdb
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.csproj.AssemblyReference.cache
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.Form1.resources
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.Properties.Resources.resources
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.csproj.GenerateResource.cache
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.exe
+C:\Users\Lucía\source\repos\slnCursoNet\WindowsApp\obj\Debug\WindowsApp.pdb
