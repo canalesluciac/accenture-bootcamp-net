@@ -1,0 +1,6 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAnimaless\bin\Debug\LibAnimaless.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAnimaless\bin\Debug\LibAnimaless.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAnimaless\obj\Debug\LibAnimaless.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAnimaless\obj\Debug\LibAnimaless.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAnimaless\obj\Debug\LibAnimaless.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAnimaless\obj\Debug\LibAnimaless.pdb

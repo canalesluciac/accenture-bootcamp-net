@@ -1,0 +1,6 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibHospital\bin\Debug\LibHospital.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibHospital\bin\Debug\LibHospital.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibHospital\obj\Debug\LibHospital.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibHospital\obj\Debug\LibHospital.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibHospital\obj\Debug\LibHospital.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibHospital\obj\Debug\LibHospital.pdb

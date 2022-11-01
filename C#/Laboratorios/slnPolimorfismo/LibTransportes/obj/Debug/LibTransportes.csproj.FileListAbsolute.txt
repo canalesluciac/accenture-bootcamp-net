@@ -1,0 +1,6 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibTransportes\bin\Debug\LibTransportes.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibTransportes\bin\Debug\LibTransportes.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibTransportes\obj\Debug\LibTransportes.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibTransportes\obj\Debug\LibTransportes.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibTransportes\obj\Debug\LibTransportes.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibTransportes\obj\Debug\LibTransportes.pdb

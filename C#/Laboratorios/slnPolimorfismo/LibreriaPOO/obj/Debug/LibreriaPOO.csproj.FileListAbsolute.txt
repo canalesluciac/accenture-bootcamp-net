@@ -1,0 +1,6 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibreriaPOO\bin\Debug\LibreriaPOO.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibreriaPOO\bin\Debug\LibreriaPOO.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibreriaPOO\obj\Debug\LibreriaPOO.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibreriaPOO\obj\Debug\LibreriaPOO.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibreriaPOO\obj\Debug\LibreriaPOO.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibreriaPOO\obj\Debug\LibreriaPOO.pdb

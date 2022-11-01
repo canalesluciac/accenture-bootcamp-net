@@ -1,0 +1,6 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAjedrez\bin\Debug\LibAjedrez.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAjedrez\bin\Debug\LibAjedrez.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAjedrez\obj\Debug\LibAjedrez.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAjedrez\obj\Debug\LibAjedrez.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAjedrez\obj\Debug\LibAjedrez.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnPolimorfismo\LibAjedrez\obj\Debug\LibAjedrez.pdb
