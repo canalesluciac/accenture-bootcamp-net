@@ -1,0 +1,6 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\LibEntidades\bin\Debug\LibEntidades.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\LibEntidades\bin\Debug\LibEntidades.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\LibEntidades\obj\Debug\LibEntidades.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\LibEntidades\obj\Debug\LibEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\LibEntidades\obj\Debug\LibEntidades.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\LibEntidades\obj\Debug\LibEntidades.pdb

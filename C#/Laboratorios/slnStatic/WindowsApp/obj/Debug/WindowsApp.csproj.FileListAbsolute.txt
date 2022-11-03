@@ -1,0 +1,14 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\bin\Debug\WindowsApp.exe.config
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\bin\Debug\WindowsApp.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\bin\Debug\WindowsApp.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\bin\Debug\LibEntidades.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\bin\Debug\LibEntidades.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\obj\Debug\WindowsApp.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\obj\Debug\WindowsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\obj\Debug\WindowsApp.Form1.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\obj\Debug\WindowsApp.Properties.Resources.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\obj\Debug\WindowsApp.csproj.GenerateResource.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\obj\Debug\WindowsApp.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\obj\Debug\WindowsApp.csproj.CopyComplete
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\obj\Debug\WindowsApp.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnStatic\WindowsApp\obj\Debug\WindowsApp.pdb
