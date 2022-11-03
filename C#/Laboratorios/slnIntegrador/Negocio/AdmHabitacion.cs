@@ -8,11 +8,14 @@ using Entidades.Models.Derivadas;
 
 namespace Negocio
 {
-    public class AdmHabitacion
+    /// <summary>
+    /// Fase 2: Se convierte a clase estática (y miembros estáticos)
+    /// </summary>
+    public static class AdmHabitacion
     {
-        List<Habitacion> habitaciones;
+        static List<Habitacion> habitaciones;
 
-        public List<Habitacion> Listar()
+        public static List<Habitacion> Listar()
         {
             //Crear lista
             habitaciones = new List<Habitacion>();
@@ -31,25 +34,25 @@ namespace Negocio
             return habitaciones;
         }
 
-        public List<Habitacion> Listar(string estado)
+        public static List<Habitacion> Listar(string estado)
         {
             //TODO ...
             return null;
         }
 
-        public int Insertar(Habitacion habitacion)
+        public static int Insertar(Habitacion habitacion)
         {
             //TODO ...
             return 0;
         }
 
-        public int Eliminar(int id)
+        public static int Eliminar(int id)
         {
             //TODO ...
             return 0;
         }
 
-        public Habitacion TraerUno (int id)
+        public static Habitacion TraerUno (int id)
         {
             //TODO ...
             return null;

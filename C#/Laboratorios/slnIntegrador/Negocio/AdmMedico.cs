@@ -8,11 +8,14 @@ using Entidades.Models.Derivadas;
 
 namespace Negocio
 {
-    public class AdmMedico
+    /// <summary>
+    /// Fase 2: Se convierte a clase estática (y miembros estáticos)
+    /// </summary>
+    public static class AdmMedico
     {
-        List<Medico> medicos;
+        static List<Medico> medicos;
 
-        public List<Medico> Listar()
+        public static List<Medico> Listar()
         {
             medicos = new List<Medico>();
             medicos.Add(new Medico() { Id = 0, Nombre = "Lucia", Apellido = "Canales", Domicilio = "Accenture 123", Email = "lucia@gmail.com", Especialidad = "Pediatria", Matricula = "12345", Telefono = "123456" });
@@ -23,25 +26,25 @@ namespace Negocio
             return medicos;
         }
 
-        public List<Medico> Listar(string especialidad)
+        public static List<Medico> Listar(string especialidad)
         {
             //TODO ...
             return null;
         }
 
-        public int Insertar(Medico medico)
+        public static int Insertar(Medico medico)
         {
             //TODO ...
             return 0;
         }
 
-        public int Eliminar(int id)
+        public static int Eliminar(int id)
         {
             //TODO ...
             return 0;
         }
 
-        public Medico TraerUno (int id)
+        public static Medico TraerUno (int id)
         {
             //TODO ...
             return null;

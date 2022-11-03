@@ -22,16 +22,16 @@ namespace WindowsPresentacion
         private void btnCrearObjetos_Click(object sender, EventArgs e)
         {
             List<Medico> medicos = new List<Medico>();
-            AdmMedico admMedico = new AdmMedico();
-            medicos = admMedico.Listar();
+            //AdmMedico admMedico = new AdmMedico();
+            medicos = AdmMedico.Listar();
 
             List<Paciente> pacientes = new List<Paciente>();
-            AdmPaciente admPaciente = new AdmPaciente();
-            pacientes = admPaciente.Listar();
+            //AdmPaciente admPaciente = new AdmPaciente();
+            pacientes = AdmPaciente.Listar();
 
             List<Habitacion> habitaciones = new List<Habitacion>();
-            AdmHabitacion admHabitacion = new AdmHabitacion();
-            habitaciones = admHabitacion.Listar();
+            //AdmHabitacion admHabitacion = new AdmHabitacion();
+            habitaciones = AdmHabitacion.Listar();
 
             gridMedicos.DataSource = medicos;
             gridPacientes.DataSource = pacientes;
