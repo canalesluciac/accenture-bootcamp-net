@@ -1,0 +1,16 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\bin\Debug\WindowsPresentacion.exe.config
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\bin\Debug\WindowsPresentacion.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\bin\Debug\WindowsPresentacion.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\bin\Debug\Entidades.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\bin\Debug\Negocio.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\bin\Debug\Entidades.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\bin\Debug\Negocio.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\obj\Debug\WindowsPresentacion.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\obj\Debug\WindowsPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\obj\Debug\WindowsPresentacion.Form1.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\obj\Debug\WindowsPresentacion.Properties.Resources.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\obj\Debug\WindowsPresentacion.csproj.GenerateResource.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\obj\Debug\WindowsPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\obj\Debug\WindowsPresentacion.csproj.CopyComplete
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\obj\Debug\WindowsPresentacion.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Laboratorios\slnIntegrador\WindowsPresentacion\obj\Debug\WindowsPresentacion.pdb
