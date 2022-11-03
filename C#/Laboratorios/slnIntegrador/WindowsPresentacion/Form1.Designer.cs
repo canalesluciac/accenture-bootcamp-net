@@ -37,13 +37,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.gridPacientes = new System.Windows.Forms.DataGridView();
             this.lblPacientes = new System.Windows.Forms.Label();
+            this.btnPaciente = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridMedicos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridPacientes)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCrearObjetos
             // 
-            this.btnCrearObjetos.Location = new System.Drawing.Point(424, 37);
+            this.btnCrearObjetos.Location = new System.Drawing.Point(168, 37);
             this.btnCrearObjetos.Name = "btnCrearObjetos";
             this.btnCrearObjetos.Size = new System.Drawing.Size(149, 51);
             this.btnCrearObjetos.TabIndex = 0;
@@ -119,11 +120,22 @@
             this.lblPacientes.TabIndex = 8;
             this.lblPacientes.Text = "Lista de pacientes";
             // 
+            // btnPaciente
+            // 
+            this.btnPaciente.Location = new System.Drawing.Point(397, 37);
+            this.btnPaciente.Name = "btnPaciente";
+            this.btnPaciente.Size = new System.Drawing.Size(165, 51);
+            this.btnPaciente.TabIndex = 9;
+            this.btnPaciente.Text = "Imprimir nombre y edad paciente";
+            this.btnPaciente.UseVisualStyleBackColor = true;
+            this.btnPaciente.Click += new System.EventHandler(this.btnPaciente_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(955, 800);
+            this.Controls.Add(this.btnPaciente);
             this.Controls.Add(this.lblPacientes);
             this.Controls.Add(this.gridPacientes);
             this.Controls.Add(this.label1);
@@ -153,6 +165,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView gridPacientes;
         private System.Windows.Forms.Label lblPacientes;
+        private System.Windows.Forms.Button btnPaciente;
     }
 }
 

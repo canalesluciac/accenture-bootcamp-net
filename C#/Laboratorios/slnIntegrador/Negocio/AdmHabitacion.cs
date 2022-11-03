@@ -30,7 +30,6 @@ namespace Negocio
             habitaciones.Add(new Habitacion() { Id = 3, Numero = 3, Estado = "Disponible" });
             habitaciones.Add(new Habitacion() { Id = 4, Numero = 4, Estado = "Disponible" });
             habitaciones.Add(new Habitacion() { Id = 5, Numero = 5, Estado = "Ocupado" });
-
             return habitaciones;
         }
 

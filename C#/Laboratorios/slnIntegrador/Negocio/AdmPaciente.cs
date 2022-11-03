@@ -18,11 +18,12 @@ namespace Negocio
         public static List<Paciente> Listar()
         {
             pacientes = new List<Paciente>();
-            pacientes.Add(new Paciente() { Id=1, Nombre="Hector", Apellido="AAA", Email="hector@gmail.com", Domicilio="Caballito 123", NroHistoriaClinica="1234", Telefono="1111"});
-            pacientes.Add(new Paciente() { Id = 1, Nombre = "Gabriel", Apellido = "BBB", Email = "gabriel@gmail.com", Domicilio = "Formosa 123", NroHistoriaClinica = "1235", Telefono = "222" });
-            pacientes.Add(new Paciente() { Id = 1, Nombre = "Ulises", Apellido = "CCC", Email = "ulises@gmail.com", Domicilio = "Moreno 123", NroHistoriaClinica = "1236", Telefono = "3333" });
-            pacientes.Add(new Paciente() { Id = 1, Nombre = "Mara", Apellido = "Gonzalez", Email = "mara@gmail.com", Domicilio = "San Martin 123", NroHistoriaClinica = "1237", Telefono = "4444" });
-            pacientes.Add(new Paciente() { Id = 1, Nombre = "Candela", Apellido = "Gonzalez", Email = "candela@gmail.com", Domicilio = "Belgrano 123", NroHistoriaClinica = "1238", Telefono = "555" });
+            pacientes.Add(new Paciente(1, "Martina", "Gomez", "Tejedor 123", "1234", "martina@gmail.com", "A123", new DateTime(1995, 4, 2)));
+            pacientes.Add(new Paciente(1, "Hector", "Perez", "Pasteur 123", "1235", "hector@gmail.com", "A126", new DateTime(1997, 6, 15)));
+            pacientes.Add(new Paciente(1, "Gabriel", "Gonzalez", "Arenales 123", "1236", "gabriel@gmail.com", "A167", new DateTime(2000, 5, 22)));
+            pacientes.Add(new Paciente(1, "Ulises", "Lopez", "San Martin 123", "1237", "ulises@gmail.com", "A873", new DateTime(1975, 6, 1)));
+            pacientes.Add(new Paciente(1, "Mara", "Juarez", "Belgrano 123", "1238", "mara@gmail.com", "A194", new DateTime(1990, 8, 11)));
+            pacientes.Add(new Paciente(1, "Candela", "Michelli", "Moreno 123", "1230", "candela@gmail.com", "A154", new DateTime(1968, 1, 16)));
             return pacientes;
         }
 

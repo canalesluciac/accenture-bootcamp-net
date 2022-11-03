@@ -18,11 +18,11 @@ namespace Negocio
         public static List<Medico> Listar()
         {
             medicos = new List<Medico>();
-            medicos.Add(new Medico() { Id = 0, Nombre = "Lucia", Apellido = "Canales", Domicilio = "Accenture 123", Email = "lucia@gmail.com", Especialidad = "Pediatria", Matricula = "12345", Telefono = "123456" });
-            medicos.Add(new Medico() { Id = 1, Nombre = "Susana", Apellido = "Fernandez", Domicilio = "Accenture 123", Email = "susana@gmail.com", Especialidad = "Clinica", Matricula = "12349", Telefono = "123450" });
-            medicos.Add(new Medico() { Id = 1, Nombre = "Gregorio", Apellido = "Fernandez", Domicilio = "Accenture 123", Email = "gregorio@gmail.com", Especialidad = "Clinica", Matricula = "12346", Telefono = "123457" });
-            medicos.Add(new Medico() { Id = 3, Nombre = "Gabriela", Apellido = "Giles", Domicilio = "EducacionIt 123", Email = "gabriela@gmail.com", Especialidad = "Clinica", Matricula = "12348", Telefono = "123459" });
-            medicos.Add(new Medico() { Id = 2, Nombre = "Bautista", Apellido = "Fernandez", Domicilio = "Accenture 123", Email = "bautista@gmail.com", Especialidad = "Traumatologia", Matricula = "12347", Telefono = "123458" });
+            medicos.Add(new Medico(1, "Aaron", "Andradez", "Alcorta 123", "A123", "aaron@gmail.com", "Traumatologia", "AA11"));
+            medicos.Add(new Medico(2, "Agustina", "Alamos", "Andreani 123", "A234", "agustina@gmail.com", "Pediatria", "A112"));
+            medicos.Add(new Medico(3, "Augusto", "Adoratti", "Alamos 123", "A264", "augusto@gmail.com", "Clinica", "A142"));
+            medicos.Add(new Medico(4, "Ana", "Acre", "Andreani 223", "A254", "ana@gmail.com", "Clinica", "A172"));
+            medicos.Add(new Medico(5, "Anastasia", "Amigos", "Alabama 226", "A258", "anastasia@gmail.com", "Clinica", "A175"));
             return medicos;
         }
 
