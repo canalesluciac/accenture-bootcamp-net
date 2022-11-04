@@ -8,8 +8,10 @@ namespace Entidades.Models.Derivadas
 {
     public class Habitacion
     {
+        #region Propiedades
         public int Id { get; set; }
         public int Numero { get; set; }
         public string Estado { get; set; }
+        #endregion
     }
 }

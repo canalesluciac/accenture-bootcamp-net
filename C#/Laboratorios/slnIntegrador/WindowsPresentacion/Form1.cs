@@ -21,13 +21,13 @@ namespace WindowsPresentacion
 
         private void btnCrearObjetos_Click(object sender, EventArgs e)
         {
-            List<Medico> medicos = new List<Medico>(); //AdmMedico admMedico = new AdmMedico();
+            List<Medico> medicos = new List<Medico>(); //Antes de la Tarea 6 AdmMedico no era estatica, por lo que era necesario --> AdmMedico admMedico = new AdmMedico();
             medicos = AdmMedico.Listar();
 
-            List<Paciente> pacientes = new List<Paciente>(); //AdmPaciente admPaciente = new AdmPaciente();
+            List<Paciente> pacientes = new List<Paciente>(); //Antes de la Tarea 6 AdmPaciente no era estatica, por lo que era necesario --> AdmPaciente admPaciente = new AdmPaciente();
             pacientes = AdmPaciente.Listar();
 
-            List<Habitacion> habitaciones = new List<Habitacion>(); //AdmHabitacion admHabitacion = new AdmHabitacion();
+            List<Habitacion> habitaciones = new List<Habitacion>(); //Antes de la Tarea 6 AdmHabitacion no era estatica, por lo que era necesario --> AdmHabitacion admHabitacion = new AdmHabitacion();
             habitaciones = AdmHabitacion.Listar();
 
             gridMedicos.DataSource = medicos;
@@ -42,6 +42,7 @@ namespace WindowsPresentacion
                     lstClinicos.Items.Add(contador + ": " + medico.Nombre + " " + medico.Apellido);
                 }
             }
+            lstClinicos.Items.Add("Total de medicos clinicos: " + contador);
 
             foreach(Habitacion habitacion in habitaciones)
             {

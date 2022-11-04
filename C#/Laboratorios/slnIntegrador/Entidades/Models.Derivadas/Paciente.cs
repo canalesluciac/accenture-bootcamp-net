@@ -21,12 +21,18 @@ namespace Entidades.Models.Derivadas
         #region Propiedades
         public string NroHistoriaClinica { get; set; }
         
+        /// <summary>
+        /// Tarea 7: Se declara propiedad FechaNacimiento de solo lectura
+        /// </summary>
         private DateTime _FechaNacimiento;
         public DateTime FechaNacimiento
         {
             get { return _FechaNacimiento; }
         }
 
+        /// <summary>
+        /// Tarea 7: Se declara propiedad Edad de solo lectura. Se utiliza para ella el método CalcularEdad
+        /// </summary>
         public int Edad
         {
             get { return UtilidadesFechas.CalcularEdad(FechaNacimiento); }

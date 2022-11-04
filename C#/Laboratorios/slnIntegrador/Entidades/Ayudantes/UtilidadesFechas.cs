@@ -18,7 +18,7 @@ namespace Entidades.Ayudantes
             int edad = FechaActual.Year - fechaNacimiento.Year;
             if ((fechaNacimiento.Month > FechaActual.Month) || (fechaNacimiento.Month==FechaActual.Month && fechaNacimiento.Day>FechaActual.Day))
             {
-                edad = edad - 1;
+                edad -= - 1;
             }
             return edad;
         }

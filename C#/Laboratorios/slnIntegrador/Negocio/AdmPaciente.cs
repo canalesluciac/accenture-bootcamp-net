@@ -9,12 +9,13 @@ using Entidades.Models.Derivadas;
 namespace Negocio
 {
     /// <summary>
-    /// Fase 2: Se convierte a clase estática (y miembros estáticos)
+    /// Tarea 6: Se convierte a clase estática (y miembros estáticos)
     /// </summary>
     public static class AdmPaciente
     {
         static List<Paciente> pacientes;
 
+        #region Mis Métodos
         public static List<Paciente> Listar()
         {
             pacientes = new List<Paciente>();
@@ -44,6 +45,7 @@ namespace Negocio
             //TODO ...
             return null;
         }
+        #endregion
 
     }
 }

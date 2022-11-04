@@ -44,7 +44,7 @@
             // 
             // btnCrearObjetos
             // 
-            this.btnCrearObjetos.Location = new System.Drawing.Point(168, 37);
+            this.btnCrearObjetos.Location = new System.Drawing.Point(275, 37);
             this.btnCrearObjetos.Name = "btnCrearObjetos";
             this.btnCrearObjetos.Size = new System.Drawing.Size(149, 51);
             this.btnCrearObjetos.TabIndex = 0;
@@ -122,7 +122,7 @@
             // 
             // btnPaciente
             // 
-            this.btnPaciente.Location = new System.Drawing.Point(397, 37);
+            this.btnPaciente.Location = new System.Drawing.Point(490, 37);
             this.btnPaciente.Name = "btnPaciente";
             this.btnPaciente.Size = new System.Drawing.Size(165, 51);
             this.btnPaciente.TabIndex = 9;
