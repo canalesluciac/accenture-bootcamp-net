@@ -1,0 +1,6 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\slnAsociaciones\LibAsociaciones\bin\Debug\LibAsociaciones.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\slnAsociaciones\LibAsociaciones\bin\Debug\LibAsociaciones.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\slnAsociaciones\LibAsociaciones\obj\Debug\LibAsociaciones.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\slnAsociaciones\LibAsociaciones\obj\Debug\LibAsociaciones.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\slnAsociaciones\LibAsociaciones\obj\Debug\LibAsociaciones.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\slnAsociaciones\LibAsociaciones\obj\Debug\LibAsociaciones.pdb

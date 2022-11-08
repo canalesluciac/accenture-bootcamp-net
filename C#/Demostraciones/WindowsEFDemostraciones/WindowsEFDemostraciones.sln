@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsEF", "WindowsEF\WindowsEF.csproj", "{FFDCDCCF-E45F-4895-BE89-2DFAE74D6827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsEFEscuela", "WindowsEFEscuela\WindowsEFEscuela.csproj", "{81F0727C-F290-4B6A-8358-1F71E4DCA1FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFDCDCCF-E45F-4895-BE89-2DFAE74D6827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDCDCCF-E45F-4895-BE89-2DFAE74D6827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDCDCCF-E45F-4895-BE89-2DFAE74D6827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDCDCCF-E45F-4895-BE89-2DFAE74D6827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F0727C-F290-4B6A-8358-1F71E4DCA1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F0727C-F290-4B6A-8358-1F71E4DCA1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F0727C-F290-4B6A-8358-1F71E4DCA1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F0727C-F290-4B6A-8358-1F71E4DCA1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4B16625-BD73-47E6-974A-1C6D25BA2B64}
+	EndGlobalSection
+EndGlobal

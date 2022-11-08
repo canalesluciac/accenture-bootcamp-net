@@ -1,0 +1,15 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\bin\Debug\WindowsEFEscuela.exe.config
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\bin\Debug\WindowsEFEscuela.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\bin\Debug\WindowsEFEscuela.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\obj\Debug\WindowsEFEscuela.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\obj\Debug\WindowsEFEscuela.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\obj\Debug\WindowsEFEscuela.Properties.Resources.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\obj\Debug\WindowsEFEscuela.csproj.GenerateResource.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\obj\Debug\WindowsEFEscuela.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\obj\Debug\WindowsEFEscuela.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\obj\Debug\WindowsEFEscuela.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\bin\Debug\EntityFramework.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\bin\Debug\EntityFramework.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEFEscuela\obj\Debug\WindowsEFEscuela.csproj.CopyComplete

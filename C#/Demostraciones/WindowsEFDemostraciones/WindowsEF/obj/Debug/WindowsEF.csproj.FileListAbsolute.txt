@@ -1,0 +1,16 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\bin\Debug\WindowsEF.exe.config
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\bin\Debug\WindowsEF.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\bin\Debug\WindowsEF.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\bin\Debug\EntityFramework.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\bin\Debug\EntityFramework.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.Properties.Resources.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.csproj.GenerateResource.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.csproj.CopyComplete
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.Migrations.crearBase.resources
