@@ -1,0 +1,15 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\bin\Debug\WindowsAppPubs.exe.config
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\bin\Debug\WindowsAppPubs.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\bin\Debug\WindowsAppPubs.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\bin\Debug\EntityFramework.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\bin\Debug\EntityFramework.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\obj\Debug\WindowsAppPubs.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\obj\Debug\WindowsAppPubs.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\obj\Debug\WindowsAppPubs.Properties.Resources.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\obj\Debug\WindowsAppPubs.csproj.GenerateResource.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\obj\Debug\WindowsAppPubs.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\obj\Debug\WindowsAppPubs.csproj.CopyComplete
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\obj\Debug\WindowsAppPubs.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppPubs\obj\Debug\WindowsAppPubs.pdb

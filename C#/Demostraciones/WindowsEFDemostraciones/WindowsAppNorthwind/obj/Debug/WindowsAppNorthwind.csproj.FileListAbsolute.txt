@@ -1,0 +1,16 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\bin\Debug\WindowsAppNorthwind.exe.config
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\bin\Debug\WindowsAppNorthwind.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\bin\Debug\WindowsAppNorthwind.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\bin\Debug\EntityFramework.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\bin\Debug\EntityFramework.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\obj\Debug\WindowsAppNorthwind.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\obj\Debug\WindowsAppNorthwind.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\obj\Debug\WindowsAppNorthwind.Form1.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\obj\Debug\WindowsAppNorthwind.Properties.Resources.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\obj\Debug\WindowsAppNorthwind.csproj.GenerateResource.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\obj\Debug\WindowsAppNorthwind.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\obj\Debug\WindowsAppNorthwind.csproj.CopyComplete
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\obj\Debug\WindowsAppNorthwind.exe
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsAppNorthwind\obj\Debug\WindowsAppNorthwind.pdb

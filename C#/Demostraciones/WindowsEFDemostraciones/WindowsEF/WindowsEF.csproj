@@ -63,17 +63,27 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202211081815442_crearBase.cs" />
-    <Compile Include="Migrations\202211081815442_crearBase.designer.cs">
-      <DependentUpon>202211081815442_crearBase.cs</DependentUpon>
+    <Compile Include="Migrations\202211101701412_initial.cs" />
+    <Compile Include="Migrations\202211101701412_initial.designer.cs">
+      <DependentUpon>202211101701412_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202211101906378_relacionesUnoAUno.cs" />
+    <Compile Include="Migrations\202211101906378_relacionesUnoAUno.designer.cs">
+      <DependentUpon>202211101906378_relacionesUnoAUno.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Models\Empleado.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeDetail.cs" />
     <Compile Include="Models\Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Migrations\202211081815442_crearBase.resx">
-      <DependentUpon>202211081815442_crearBase.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202211101701412_initial.resx">
+      <DependentUpon>202211101701412_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211101906378_relacionesUnoAUno.resx">
+      <DependentUpon>202211101906378_relacionesUnoAUno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

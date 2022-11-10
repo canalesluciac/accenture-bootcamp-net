@@ -13,4 +13,5 @@ C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostra
 C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.csproj.CopyComplete
 C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.exe
 C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.pdb
-C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.Migrations.crearBase.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.Migrations.initial.resources
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\WindowsEFDemostraciones\WindowsEF\obj\Debug\WindowsEF.Migrations.relacionesUnoAUno.resources
