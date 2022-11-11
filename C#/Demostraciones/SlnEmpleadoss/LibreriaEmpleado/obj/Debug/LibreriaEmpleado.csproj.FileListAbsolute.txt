@@ -1,0 +1,12 @@
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\bin\Debug\LibreriaEmpleado.dll.config
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\bin\Debug\LibreriaEmpleado.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\bin\Debug\LibreriaEmpleado.pdb
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\bin\Debug\EntityFramework.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\bin\Debug\EntityFramework.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\obj\Debug\LibreriaEmpleado.csproj.AssemblyReference.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\obj\Debug\LibreriaEmpleado.csproj.CoreCompileInputs.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\obj\Debug\LibreriaEmpleado.csproj.CopyComplete
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\obj\Debug\LibreriaEmpleado.dll
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\Demostraciones\SlnEmpleadoss\LibreriaEmpleado\obj\Debug\LibreriaEmpleado.pdb
