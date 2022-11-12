@@ -25,6 +25,11 @@ namespace PresentacionWindows
 
         private void btnCargaDepto_Click(object sender, EventArgs e)
         {
+
+            /* Hola Gabi! está sin terminar. Tengo que ir a cursar ahora lo termino hoy a la noche o mañana a primera hora
+            Tuve una semana en salud, familiar y académica larga. Se que no es excusa, solo pido perdón */
+
+
             Departamento departamento = new Departamento();
             context.Departamentos.Add(departamento);
 

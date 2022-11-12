@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsEF", "WindowsEF\Wind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAppNorthwind", "WindowsAppNorthwind\WindowsAppNorthwind.csproj", "{5BCC0442-14A9-406E-936A-EF8D0EB0EE84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAppPubs", "WindowsAppPubs\WindowsAppPubs.csproj", "{5CA49D43-0A03-4A2F-90A8-5DAFBA6BF1D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAppPub", "WindowsAppPubs\WindowsAppPub.csproj", "{5CA49D43-0A03-4A2F-90A8-5DAFBA6BF1D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -79,8 +79,8 @@
       <FileName>Models\Sale.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="title" />
       <Property Name="store" />
+      <Property Name="title" />
     </ShowAsAssociation>
   </Class>
   <Class Name="WindowsAppPubs.Models.Store" Collapsed="true">
@@ -90,8 +90,8 @@
       <FileName>Models\Store.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
-      <Property Name="discounts" />
       <Property Name="sales" />
+      <Property Name="discounts" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="WindowsAppPubs.Models.Title" Collapsed="true">
@@ -115,8 +115,8 @@
       <FileName>Models\TitleAuthor.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="title" />
       <Property Name="author" />
+      <Property Name="title" />
     </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />

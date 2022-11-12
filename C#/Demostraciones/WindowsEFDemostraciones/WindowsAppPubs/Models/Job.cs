@@ -11,7 +11,7 @@ namespace WindowsAppPubs.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Job()
         {
-            employee = new HashSet<Employee>();
+            employees = new HashSet<Employee>();
         }
 
         [Key]

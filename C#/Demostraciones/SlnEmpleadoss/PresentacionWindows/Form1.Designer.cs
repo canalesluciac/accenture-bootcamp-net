@@ -37,14 +37,14 @@
             // gridEmpleados
             // 
             this.gridEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridEmpleados.Location = new System.Drawing.Point(289, 256);
+            this.gridEmpleados.Location = new System.Drawing.Point(288, 215);
             this.gridEmpleados.Name = "gridEmpleados";
             this.gridEmpleados.Size = new System.Drawing.Size(240, 150);
             this.gridEmpleados.TabIndex = 0;
             // 
             // btnCargaDepto
             // 
-            this.btnCargaDepto.Location = new System.Drawing.Point(337, 136);
+            this.btnCargaDepto.Location = new System.Drawing.Point(336, 95);
             this.btnCargaDepto.Name = "btnCargaDepto";
             this.btnCargaDepto.Size = new System.Drawing.Size(124, 23);
             this.btnCargaDepto.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             // btnEmpleados
             // 
-            this.btnEmpleados.Location = new System.Drawing.Point(337, 188);
+            this.btnEmpleados.Location = new System.Drawing.Point(336, 147);
             this.btnEmpleados.Name = "btnEmpleados";
             this.btnEmpleados.Size = new System.Drawing.Size(124, 23);
             this.btnEmpleados.TabIndex = 2;
