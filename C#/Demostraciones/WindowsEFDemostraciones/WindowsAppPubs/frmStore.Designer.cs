@@ -35,6 +35,7 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.lblId = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
+            this.btnDacStore = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridStores)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@
             // gridStores
             // 
             this.gridStores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridStores.Location = new System.Drawing.Point(12, 102);
+            this.gridStores.Location = new System.Drawing.Point(10, 134);
             this.gridStores.Name = "gridStores";
             this.gridStores.Size = new System.Drawing.Size(456, 150);
             this.gridStores.TabIndex = 12;
@@ -102,11 +103,22 @@
             this.txtId.Size = new System.Drawing.Size(100, 20);
             this.txtId.TabIndex = 7;
             // 
+            // btnDacStore
+            // 
+            this.btnDacStore.Location = new System.Drawing.Point(254, 82);
+            this.btnDacStore.Name = "btnDacStore";
+            this.btnDacStore.Size = new System.Drawing.Size(185, 23);
+            this.btnDacStore.TabIndex = 14;
+            this.btnDacStore.Text = "Probar metodos DacStore";
+            this.btnDacStore.UseVisualStyleBackColor = true;
+            this.btnDacStore.Click += new System.EventHandler(this.btnDacStore_Click);
+            // 
             // frmStore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(478, 270);
+            this.ClientSize = new System.Drawing.Size(478, 296);
+            this.Controls.Add(this.btnDacStore);
             this.Controls.Add(this.btnTraerTodos);
             this.Controls.Add(this.gridStores);
             this.Controls.Add(this.btnInsertar);
@@ -131,5 +143,6 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Button btnDacStore;
     }
 }

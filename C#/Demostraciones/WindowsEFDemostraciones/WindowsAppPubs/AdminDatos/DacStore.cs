@@ -29,7 +29,7 @@ namespace WindowsAppPubs.AdminDatos
         public static int Nuevo (Store store)
         {
             // Agrega objeto --> método Add()
-            contextPub.Store.Add(store);
+            contextPub.Store.Add(store); 
             return contextPub.SaveChanges();
         }
 

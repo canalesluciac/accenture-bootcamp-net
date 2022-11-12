@@ -7,10 +7,7 @@ namespace WindowsAppPubs.Models
 {
     public partial class PubsContext : DbContext
     {
-        public PubsContext()
-            : base("name=PubsContext")
-        {
-        }
+        public PubsContext() : base("keyDBPub") { }
 
         public virtual DbSet<Author> Author { get; set; }
         public virtual DbSet<Employee> Employee { get; set; }
