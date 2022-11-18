@@ -28,7 +28,7 @@ namespace WSAutoCanales.Controllers
         }
 
         // GET api/auto/modelo
-        [HttpGet("{Modelo}")]
+        [HttpGet("Modelo={Modelo}")]
         public Auto Get(string Modelo)
         {
             var auto = (from a in _context.Autos
@@ -89,13 +89,13 @@ namespace WSAutoCanales.Controllers
             return auto;
         }
 
-        /*[HttpGet("{color}")]      // ERROR - SUPERPOSICION CON GET QUE TRAE POR MODELO
-        public dynamic Get(string color)
+        [HttpGet("color={color}")]      // Se agrega GetPorColor
+        public dynamic GetPorColor(string color)
         {
             dynamic autos = (from a in _context.Autos
                             where a.Color == color
                             select new { a.AutoId, a.Marca, a.Precio, a.Color});
             return autos;
-        }*/
+        }
     }
 }
