@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using WebApiCanalesLucia.Models;
 using WebApiCanalesLucia.Data;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApiCanalesLucia.Controllers
 {
@@ -60,5 +61,24 @@ namespace WebApiCanalesLucia.Controllers
             return doctor;
         }
 
+        [HttpPut("{Doctor_No}")]
+        public ActionResult Put(int Doctor_No, [FromBody] Doctor doctor)
+        {
+            if (Doctor_No != doctor.Doctor_No) { return BadRequest(); }
+            _context.Entry(doctor).State = EntityState.Modified;
+            _context.SaveChanges();
+            return NoContent(); 
+        }
+
+        [HttpGet("{especialidad}")]
+        public IEnumerable<Doctor> Get(string especialidad)
+        {
+            //LinqToEntities
+            List<Doctor> doctors = (from d in _context.Doctores
+                                    where especialidad == d.Especialidad
+                                    select d).ToList();
+            return doctors;
+        }
+        
     }
 }
