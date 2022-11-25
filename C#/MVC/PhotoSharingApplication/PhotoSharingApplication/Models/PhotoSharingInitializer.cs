@@ -26,7 +26,7 @@ namespace PhotoSharingApplication.Models
         }
 
 
-        public Seed(PhotoSharingContext context)
+        /*public Seed(PhotoSharingContext context)
         {
             var photos = new List<Photo>
             {
@@ -45,7 +45,7 @@ namespace PhotoSharingApplication.Models
             context.SaveChanges();
 
 
-        }
+        }*/
 
     }
 }
