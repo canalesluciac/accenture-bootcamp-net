@@ -27,58 +27,7 @@ namespace WebEscuelaMVC.Controllers
             return View("Register", aula);
         }
 
-        // POST
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        // : Aula/Create
+        // POST: Aula/Create
         public ActionResult Create(Aula aula)   // Guarda la nueva aula en la DB
         {
             if (ModelState.IsValid)
@@ -140,6 +89,7 @@ namespace WebEscuelaMVC.Controllers
         /* Busca en la base de datos. Retorna la vista “Index” y la lista de aulas. */
         public ActionResult ListarPorEstado(string estado)
         {
+            // TODO: Listar o por "Estado" (propiedad) o por EntityState
             return View("Index");
         }
 

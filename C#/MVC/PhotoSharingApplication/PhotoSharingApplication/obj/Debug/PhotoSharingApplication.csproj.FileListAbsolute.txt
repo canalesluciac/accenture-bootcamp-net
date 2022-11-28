@@ -82,3 +82,4 @@ C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\MVC\PhotoSharingApplication\Phot
 C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\MVC\PhotoSharingApplication\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.pdb
 C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\MVC\PhotoSharingApplication\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.Migrations.inicial.resources
 C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\MVC\PhotoSharingApplication\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.csproj.GenerateResource.cache
+C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\MVC\PhotoSharingApplication\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.Migrations.secondAttempt.resources

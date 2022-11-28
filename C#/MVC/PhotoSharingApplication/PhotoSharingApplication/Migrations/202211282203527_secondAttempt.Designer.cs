@@ -7,13 +7,13 @@ namespace PhotoSharingApplication.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class inicial : IMigrationMetadata
+    public sealed partial class secondAttempt : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(inicial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(secondAttempt));
         
         string IMigrationMetadata.Id
         {
-            get { return "202211251922357_inicial"; }
+            get { return "202211282203527_secondAttempt"; }
         }
         
         string IMigrationMetadata.Source

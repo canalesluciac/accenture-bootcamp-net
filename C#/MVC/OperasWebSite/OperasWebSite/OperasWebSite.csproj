@@ -95,11 +95,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HelperController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OperaController.cs" />
     <Compile Include="Data\OperaDBContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -126,6 +129,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -135,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Filters\" />
     <Folder Include="Views\Opera\" />
   </ItemGroup>
   <ItemGroup>

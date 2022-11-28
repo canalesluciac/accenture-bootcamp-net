@@ -101,14 +101,19 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CommentController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PhotoController.cs" />
     <Compile Include="Data\PhotoSharingContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202211251922357_inicial.cs" />
-    <Compile Include="Migrations\202211251922357_inicial.designer.cs">
-      <DependentUpon>202211251922357_inicial.cs</DependentUpon>
+    <Compile Include="Migrations\202211282153107_inicial.cs" />
+    <Compile Include="Migrations\202211282153107_inicial.designer.cs">
+      <DependentUpon>202211282153107_inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202211282203527_secondAttempt.cs" />
+    <Compile Include="Migrations\202211282203527_secondAttempt.designer.cs">
+      <DependentUpon>202211282203527_secondAttempt.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Comment.cs" />
@@ -128,6 +133,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Content Include="Views\Photo\Display.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Photo\Create.cshtml" />
+    <Content Include="Views\Shared\_PhotoGallery.cshtml" />
+    <Content Include="Views\Photo\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -138,11 +148,13 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Comment\" />
-    <Folder Include="Views\Photo\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202211251922357_inicial.resx">
-      <DependentUpon>202211251922357_inicial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202211282153107_inicial.resx">
+      <DependentUpon>202211282153107_inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211282203527_secondAttempt.resx">
+      <DependentUpon>202211282203527_secondAttempt.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

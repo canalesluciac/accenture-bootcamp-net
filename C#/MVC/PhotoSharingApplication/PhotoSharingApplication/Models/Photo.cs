@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
 using System.Web.Mvc;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PhotoSharingApplication.Models
 {
@@ -26,7 +27,7 @@ namespace PhotoSharingApplication.Models
         [DataType(DataType.MultilineText)]
         public string Description { get; set; }
 
-        [DataType(DataType.DateTime)]
+        [DataType(DataType.DateTime)]       //[Column(TypeName ="DateTime2")]
         [DisplayName("Created Date")]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yy}", ApplyFormatInEditMode = true)]
         public DateTime CreatedDate { get; set; }
