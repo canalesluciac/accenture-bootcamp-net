@@ -26,7 +26,7 @@ namespace WebEscuelaMVC.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=EscuelaDB;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=EscuelaDBMVC;Integrated Security=True")]
         public string keyDBWebEscuela {
             get {
                 return ((string)(this["keyDBWebEscuela"]));

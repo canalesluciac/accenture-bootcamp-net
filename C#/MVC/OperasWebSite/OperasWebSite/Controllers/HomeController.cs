@@ -16,6 +16,12 @@ namespace OperasWebSite.Controllers
             return View();
         }
 
+        public ActionResult About()
+        {
+            ViewBag.Message = "Contenido en view About";
+            return View();
+        }
+
         /*filtros de acción en verdad no van en HomeController*/
         //Antes de invocar el acción
         protected override void OnActionExecuting(ActionExecutingContext filterContext)

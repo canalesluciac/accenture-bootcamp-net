@@ -101,13 +101,14 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AulaController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\AulaDBContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202211252041018_inicial.cs" />
-    <Compile Include="Migrations\202211252041018_inicial.designer.cs">
-      <DependentUpon>202211252041018_inicial.cs</DependentUpon>
+    <Compile Include="Migrations\202211282342276_inicial.cs" />
+    <Compile Include="Migrations\202211282342276_inicial.designer.cs">
+      <DependentUpon>202211282342276_inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Aula.cs" />
@@ -126,6 +127,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Aula\Index.cshtml" />
+    <Content Include="Views\Aula\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -135,11 +139,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Aula\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202211252041018_inicial.resx">
-      <DependentUpon>202211252041018_inicial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202211282342276_inicial.resx">
+      <DependentUpon>202211282342276_inicial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
