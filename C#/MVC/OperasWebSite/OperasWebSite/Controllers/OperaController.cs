@@ -17,15 +17,18 @@ namespace OperasWebSite.Controllers
         public ActionResult Index()
         {
             List<Opera> lista = context.Operas.ToList(); // context - DbSet - método ToList()
-            return View();          // Devuelve vista de operas
+            return View("Index",lista);          // Devuelve vista de operas
         }
 
         // GET: Opera/Create   ( {controlador}/{metodo} )
         public ActionResult Create()
         {
             Opera opera = new Opera(); // 1. New instancia del modelo
-            return View("Index", opera);         //  2. Objeto creado se envía a vista --> Post
+            return View("Crear", opera);         //  2. Objeto creado se envía a vista --> Post
         }
+
+        //POST: /Opera/Create
+        [HttpPost]
         public ActionResult Create(Opera opera)
         {
             if (ModelState.IsValid)     // Propiedad del controlador que valida el modelo
@@ -35,11 +38,12 @@ namespace OperasWebSite.Controllers
                 return RedirectToAction("Index");   // Luego muestra la vista de Index
             } else
             {
-                return View("Crear", opera);         // Usuario recibe un ErrorMessage -->
+                return View("Crear",opera);         // Usuario recibe un ErrorMessage -->
                                             // podría llamarse a la vista return View("Crear", opera);
             }
         }
 
+        [HttpGet]
         public ActionResult Details(int id)
         {
             Opera opera = context.Operas.Find(id); // busca la opera x su Id
@@ -50,6 +54,35 @@ namespace OperasWebSite.Controllers
             {
                 return View(opera);     // Detalle de opera (existe)
             }
+        }
+
+        // GET: /Opera/Delete/id        --> Retorna formulario del Delete
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            Opera opera = context.Operas.Find(id);
+            if (opera == null)
+            {
+                return HttpNotFound();
+            }
+            else
+            {
+                return View("Delete", opera);
+            }
+        }
+
+        // POST: /Opera/Delete
+        [HttpPost]
+        [ActionName("Delete")]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Opera opera = context.Operas.Find(id);
+            if (opera != null)
+            {
+                context.Operas.Remove(opera);
+                context.SaveChanges();
+            }
+            return RedirectToAction("Index");
         }
     }
 }
