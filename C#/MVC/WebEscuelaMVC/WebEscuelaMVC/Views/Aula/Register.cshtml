@@ -1,5 +1,4 @@
-﻿<!--GET: Create - Retorna vista "Register"-->
-@model WebEscuelaMVC.Models.Aula
+﻿@model WebEscuelaMVC.Models.Aula
 
 <!DOCTYPE html>
 
@@ -11,12 +10,8 @@
 <body>
     <div>
         <h2>New Classroom</h2>
-        @using (Html.BeginForm("Create", "Aula", FormMethod.Post, new
+        @using (Html.BeginForm("Create", "Aula", FormMethod.Post))
         {
-            enctype = "multipart/form-data"
-        }))
-        {
-            @Html.ValidationSummary(true)
             <p>
                 @Html.LabelFor(model => model.Numero)
                 @Html.EditorFor(model => model.Numero)
@@ -28,12 +23,8 @@
                 @Html.EditorFor(model => model.Estado)
                 @Html.ValidationMessageFor(model => model.Estado)
             </p>
-
-            <p>
                 <input type="submit" value="Create" />
-                @Html.ActionLink("Register", "Create")
-            </p>
-
+                @Html.ActionLink("Go to index", "Index")
         }
     </div>
 </body>

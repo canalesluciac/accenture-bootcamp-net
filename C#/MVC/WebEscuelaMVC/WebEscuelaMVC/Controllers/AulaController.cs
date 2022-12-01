@@ -17,7 +17,7 @@ namespace WebEscuelaMVC.Controllers
         public ActionResult Index()         // Devuelve vista + todas las aulas
         {
             List<Aula> list = context.Aulas.ToList();
-            return View();
+            return View("Index", list);
         }
 
         // GET: Aula/Create
@@ -28,6 +28,7 @@ namespace WebEscuelaMVC.Controllers
         }
 
         // POST: Aula/Create
+        [HttpPost]
         public ActionResult Create(Aula aula)   // Guarda la nueva aula en la DB
         {
             if (ModelState.IsValid)
@@ -38,7 +39,7 @@ namespace WebEscuelaMVC.Controllers
             }
             else
             {
-                return View("Crear", aula);
+                return View("Register", aula);
             }
         }
 
@@ -69,11 +70,12 @@ namespace WebEscuelaMVC.Controllers
             {
                 return HttpNotFound();
             }
-            return View("Modificar", aula);
+            return View("Edit", aula);
 
         }
 
         // POST: /Aula/Edit/2
+        [HttpPost]
         public ActionResult Edit(Aula aula)     
         {
             if (ModelState.IsValid) 
@@ -85,19 +87,43 @@ namespace WebEscuelaMVC.Controllers
             return View("Modificar", aula);
         }
 
+        //GET: /Aula/Delete/2
+        public ActionResult Delete(int id)
+        {
+            Aula aula = context.Aulas.Find(id);
+            if (aula == null)
+            {
+                return HttpNotFound();
+            }
+            return View("Delete", aula);
+        }
+        //POST: /Aula/Delete/2
+        [HttpPost]
+        [ActionName("Delete")]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Aula aula = context.Aulas.Find(id);
+            if (aula != null)
+            {
+                context.Aulas.Remove(aula);
+                context.SaveChanges();
+            }
+            return RedirectToAction("Index");
+        }
+
         // GET: /Aula/ListarPorEstado
         /* Busca en la base de datos. Retorna la vista “Index” y la lista de aulas. */
         public ActionResult ListarPorEstado(string estado)
         {
-            // TODO: Listar o por "Estado" (propiedad) o por EntityState
-            return View("Index");
+            List<Aula> list = (from a in context.Aulas where estado == a.Estado select a).ToList();
+            return View("Index", list);
         }
 
         // GET: /Aula/TraerPorNumero/1
-        public ActionResult TraerPorNumero( int numero) // Recibe parámetro número
+        public ActionResult TraerPorNumero( int numero) 
         {
-            Aula aula = context.Aulas.Find(numero); // Busca en DB por numero
-            return View("Details", aula);           // Retorna vista Details del aula
+            dynamic buscaNum = (from a in context.Aulas where numero == a.Numero select a).ToList();
+            return View("Details", buscaNum);           // Busca por numero de aula (se asume que podría haber más de uno por no ser lo mismo que el Id)
         }
     }
 }

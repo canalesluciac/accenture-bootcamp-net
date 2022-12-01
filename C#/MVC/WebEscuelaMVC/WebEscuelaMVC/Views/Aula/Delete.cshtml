@@ -1,0 +1,30 @@
+﻿@model WebEscuelaMVC.Models.Aula
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <h2>ID: @Model.Id</h2>
+    <p>Desea eliminar este aula?</p>
+
+    @using(Html.BeginForm("Delete", "Aula", FormMethod.Post))
+            {
+                <div>
+                    <span>@Html.DisplayNameFor(model => model.Numero):</span>
+                    <span>@Html.DisplayFor(model => model.Numero)</span>
+                </div>
+
+                <div>
+                    <span>@Html.DisplayNameFor(model => model.Estado):</span>
+                    <span>@Html.DisplayFor(model => model.Estado)</span>
+                </div>
+                <input type="submit" name="Delete" value="Eliminar" />
+             }
+            <p>
+                @Html.ActionLink("Go to index", "Index", "Aula")
+            </p>
+</body>
+</html>
