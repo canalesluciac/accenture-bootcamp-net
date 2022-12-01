@@ -1,11 +1,9 @@
 ﻿@model IEnumerable<WebElReyCan.Models.Turno>
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "ListarPorDia";
 }
 
-<h2>Index</h2>
-
-@Html.ActionLink("Nuevo", "Create", "Auto")
+<h2>Turnos agendados para el dia @ViewBag.Fecha </h2>
 
 <table>
     <tr>
