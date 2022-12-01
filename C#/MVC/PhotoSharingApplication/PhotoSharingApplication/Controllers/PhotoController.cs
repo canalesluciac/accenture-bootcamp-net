@@ -17,7 +17,7 @@ namespace PhotoSharingApplication.Controllers
         // GET: Photo
         public ActionResult Index()
         {
-            return View("Index",context.Photos.ToList());
+            return View("Index");
         }
 
         [ChildActionOnly]
