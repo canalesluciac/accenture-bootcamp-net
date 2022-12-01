@@ -8,6 +8,7 @@ namespace WebElReyCan.Models
 {
     public class Turno
     {
+        public int Id { get; set; }
         public string Fecha { get; set; }
         public string Hora { get; set; }
 
@@ -15,7 +16,9 @@ namespace WebElReyCan.Models
         public string Nombre { get; set; }
         public string Raza { get; set; }
         public int Edad { get; set; }
-        public string NombreDuenio { get; set; }   
+        [Required]
+        public string NombreDuenio { get; set; }
+        [Required]
         public string Celular { get; set; }
     }
 }
