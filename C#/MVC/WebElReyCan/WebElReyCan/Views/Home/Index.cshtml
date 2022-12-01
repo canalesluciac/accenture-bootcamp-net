@@ -1,17 +1,7 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+    ViewBag.Title = "Index";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div> 
-    </div>
-</body>
-</html>
+<h3>Fecha @ViewBag.Fecha</h3>
+<h2>Bienvenidos a El Rey Can!</h2>
+@Html.ActionLink("Ir al inicio", "Index", "Turno")

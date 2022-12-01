@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <!--TODO: <link type="text/css" rel="stylesheet" href="~/content/WebElReyCanStyles.css"-->
+</head>
+<body>
+    <header>
+        <h2>Mi Sitio Web</h2>
+        <section id="banner">
+            
+            <img width="500" src="~/img/perro.jpg" />
+        </section>
+
+        <section id="logo">
+            <p>Logo</p>
+        </section>
+
+        <section id="login">
+            <p>Login</p>
+        </section>
+
+    </header>
+
+    <nav>
+        @Html.ActionLink("Rey Can", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("Rey Can2", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+    </nav>
+
+    <main>
+        <p>Main</p>
+        <aside id="left">
+            <p>Aside</p>
+        </aside>
+
+        <article>
+            <p>Article</p>
+            @RenderBody()
+        </article>
+    
+    </main>
+
+    <footer>
+        <p>Email: reycan@email.com</p>
+    </footer>
+</body>
+</html>

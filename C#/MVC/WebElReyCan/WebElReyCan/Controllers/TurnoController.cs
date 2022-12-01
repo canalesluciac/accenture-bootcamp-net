@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
-using System.Runtime.Remoting.Contexts;
 using System.Web;
 using System.Web.Mvc;
+
+using System.Data.Entity;
 using WebElReyCan.Data;
 using WebElReyCan.Models;
 
 namespace WebElReyCan.Controllers
 {
-    
     public class TurnoController : Controller
     {
         private ReyCanDBContext context = new ReyCanDBContext();
 
-        // GET: Turno ?????????????????????????????
+        // GET: Turno
         public ActionResult Index()
         {
             ViewBag.Fecha = DateTime.Now.ToString();
@@ -24,26 +23,51 @@ namespace WebElReyCan.Controllers
             return View("Index", lista);
         }
 
+        [HttpGet]
+        public ActionResult Create()
+        {
+            Turno turno = new Turno();
+            return View("Create", turno);
+        }
+        [HttpPost]
+        public ActionResult Create(Turno turno)
+        {
 
+            if (ModelState.IsValid)
+            {
+                context.Turnos.Add(turno);
+                context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View("Create", turno);
+            }
+        }
 
-        // GET: /turno/Delete/id
+        //GET: Turno/ListarPorDia/fecha
+        public ActionResult ListarPorDia(string fecha)
+        {
+            dynamic buscaFecha = (from f in context.Turnos
+                                  where f.Fecha == fecha
+                                  select f).ToList();
+            return View("ListarPorDia", buscaFecha);
+        }
+
+        // GET: /Turno/Delete/id
         [HttpGet]
         public ActionResult Delete(int id)
         {
-
             Turno turno = context.Turnos.Find(id);
 
             if (turno == null)
             {
                 return HttpNotFound();
-
             }
-
             return View("Delete", turno);
-
         }
 
-        //POST /turno/delete
+        //POST /Turno/Delete/id
         [HttpPost]
         [ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
@@ -54,26 +78,21 @@ namespace WebElReyCan.Controllers
                 context.Turnos.Remove(turno);
                 context.SaveChanges();
             }
-
             return RedirectToAction("Index");
         }
 
-
-        //edita aula
-        //GET:Aula/Edit/id
+        //GET:Turno/Edit/id
         public ActionResult Edit(int id)
         {
-
             Turno turno = context.Turnos.Find(id);
             if (turno == null)
             {
                 HttpNotFound();
-
             }
             return View("Edit", turno);
-
         }
-        //POST : Aula/Edit/id
+
+        //POST : Turno/Edit/id
         [HttpPost]
         public ActionResult EditConfirmed(int id)
         {
@@ -82,9 +101,6 @@ namespace WebElReyCan.Controllers
             context.Entry(turno).State = EntityState.Modified;
             context.SaveChanges();
             return View("Modificar", turno);
-
         }
-
-        
     }
 }

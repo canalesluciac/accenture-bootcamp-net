@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{33108E4F-3E42-46CC-8E7C-030215C8EF46}</ProjectGuid>
+    <ProjectGuid>{A6FB0DF1-327A-4C41-A4ED-3D2FE9CD1A2B}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -96,7 +96,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="img\perro.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -107,9 +106,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202211301407370_createDataBase.cs" />
-    <Compile Include="Migrations\202211301407370_createDataBase.designer.cs">
-      <DependentUpon>202211301407370_createDataBase.cs</DependentUpon>
+    <Compile Include="Migrations\202212011543483_inicial.cs" />
+    <Compile Include="Migrations\202212011543483_inicial.designer.cs">
+      <DependentUpon>202212011543483_inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Turno.cs" />
@@ -128,10 +127,10 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Turno\Index.cshtml" />
-    <Content Include="Views\Turno\Delete.cshtml" />
-    <Content Include="Views\Turno\Edit.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Turno\Index.cshtml" />
+    <Content Include="Views\Turno\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -141,11 +140,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Home\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202211301407370_createDataBase.resx">
-      <DependentUpon>202211301407370_createDataBase.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202212011543483_inicial.resx">
+      <DependentUpon>202212011543483_inicial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
@@ -161,9 +159,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50323</DevelopmentServerPort>
+          <DevelopmentServerPort>55841</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50323/</IISUrl>
+          <IISUrl>http://localhost:55841/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
