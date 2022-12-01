@@ -1,36 +1,27 @@
 ﻿@model PhotoSharingApplication.Models.Photo
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title> Photo: @Model.Title </title>
-</head>
-<body>
-    <div>
-        <h2>"@Model.Title"</h2>
+@{
+    ViewBag.Title = Model.Title;
+}
 
-        <img width="800" src="@Url.Action("GetImage", "Photo", new { id = Model.PhotoID })" />
+<h2>"@Model.Title"</h2>
 
-        <p>
-            @Html.DisplayFor(model => model.Description)
-        </p>
+<img width="800" src="@Url.Action("GetImage", "Photo", new { id = Model.PhotoID })" />
 
-        <p>
-            @Html.DisplayNameFor(model => model.UserName):
-            @Html.DisplayFor(model => model.UserName)
-        </p>
+<p>
+    @Html.DisplayFor(model => model.Description)
+</p>
 
-        <p>
-            @Html.DisplayNameFor( model => model.CreatedDate):
-            @Html.DisplayFor( model => model.CreatedDate)
-        </p>
+<p>
+    @Html.DisplayNameFor(model => model.UserName):
+    @Html.DisplayFor(model => model.UserName)
+</p>
 
-        <p>
-            @Html.ActionLink("Back to List", "Index")
-        </p>
+<p>
+    @Html.DisplayNameFor(model => model.CreatedDate):
+    @Html.DisplayFor(model => model.CreatedDate)
+</p>
 
-
-    </div>
-</body>
-</html>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -14,7 +14,7 @@ namespace PhotoSharingApplication.Controllers
     {
         private PhotoSharingContext context = new PhotoSharingContext();
         
-        // GET: Photo
+        // GET: /Photo
         public ActionResult Index()
         {
             return View("Index");
