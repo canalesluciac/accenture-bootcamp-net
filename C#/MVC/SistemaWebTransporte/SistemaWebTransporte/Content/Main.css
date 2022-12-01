@@ -1,0 +1,50 @@
+﻿body {
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#header {
+    background-color: lawngreen;
+    width: 75%
+}
+
+#ads {
+    width: 20%;
+    background-color: lawngreen;
+    margin-left: 10px;
+}
+
+
+
+#nav {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25%;
+    background-color: lawngreen;
+    height: 500px;
+}
+
+#content {
+    float: left;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lawngreen;
+    width: 70%;
+    height: 500px;
+}
+
+#footer {
+    text-align: center;
+    background-color: lawngreen;
+    clear: both;
+    margin: 10px
+}
