@@ -54,6 +54,17 @@ namespace WebElReyCan.Controllers
             return View("ListarPorDia", buscaFecha);
         }
 
+        //GET: Turno/ListarPorFecha
+        public ActionResult ListarPorFecha()
+        {
+            ViewBag.Fecha = DateTime.Now.Date.ToString();
+            string fechaAct = DateTime.Now.Date.ToString(); // TODO: Check
+            dynamic buscaFecha = (from f in context.Turnos
+                                  where f.Fecha == fechaAct
+                                  select f).ToList();
+            return View("ListarPorDia", buscaFecha);
+        }
+
         // GET: /Turno/Delete/id
         [HttpGet]
         public ActionResult Delete(int id)
