@@ -91,7 +91,7 @@ namespace WebElReyCan.Controllers
             return RedirectToAction("Index");
         }
 
-        //GET:Turno/Edit/id
+        //GET:Turno/Edit/{id}
         public ActionResult Edit(int id)
         {
             Turno turno = context.Turnos.Find(id);
@@ -102,7 +102,7 @@ namespace WebElReyCan.Controllers
             return View("Edit", turno);
         }
 
-        //POST : Turno/Edit/id
+        //POST : Turno/Edit/{id}
         [HttpPost]
         public ActionResult EditConfirmed(int id)
         {
