@@ -1,0 +1,43 @@
+﻿@model SistemaWebEmpleado.Models.Empleado
+@{
+    ViewData["Title"] = "TraerUno";
+}
+
+@section sidebar {
+    Administracion de empleados
+}
+
+<h1>"@Model.Nombre" "@Model.Apellido"</h1>
+
+<p>
+    @Html.DisplayFor(model => model.Id)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.Nombre):
+    @Html.DisplayFor(model => model.Nombre)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.Apellido):
+    @Html.DisplayFor(model => model.Apellido)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.DNI):
+    @Html.DisplayFor(model => model.DNI)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.Legajo):
+    @Html.DisplayFor(model => model.Legajo)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.Titulo):
+    @Html.DisplayFor(model => model.Titulo)
+</p>
+
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

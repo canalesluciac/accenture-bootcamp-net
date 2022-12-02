@@ -1,0 +1,15 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section sidebar {
+    ¡Bienvenido al sitio!
+}
+
+<h1>Index</h1>
+<h1>Bienvenidos al sitio web!</h1>
+<h2>Fecha: @ViewBag.Fecha</h2>
+@Html.ActionLink("Ir a Empleados","Index","Empleado") 
+

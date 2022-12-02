@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+     <link rel="stylesheet" href="./css/site.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <p>SISTEMA Empleado</p>
+            </div>
+        <div class="sidebar">@RenderSection("sidebar", required: true)</div>
+        <div class="nav">
+            <p>
+                @Html.ActionLink("Inicio", "Index", "Home")
+                @Html.ActionLink("Empleado", "Index", "Empleado")
+            </p>
+        </div>
+        <div class="content">#content @RenderBody()</div>
+        <footer>Info@Empleado.com</footer>
+    </div>
+</body>
+</html>
