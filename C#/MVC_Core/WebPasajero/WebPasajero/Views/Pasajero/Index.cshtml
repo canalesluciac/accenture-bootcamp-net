@@ -1,5 +1,12 @@
 ﻿@model IEnumerable<WebPasajero.Models.Pasajero>
 
+<p>
+    @Html.ActionLink("Ir al Inicio", "Index", "Home") 
+    @Html.ActionLink("Create", "Create", "Pasajero")
+    @Html.ActionLink("Filter by City", "ListaPorCiudad", "Pasajero", new {ciudad = "Mar del Plata"}, null)  <!--Probar otras ciudades con JQuery-->
+    @Html.ActionLink("Filter by Birthdate", "ListaPorFechaNacimiento", "Pasajero", new {fecha = "Jan 1, 0001"})
+</p>
+
 <table>
     <thead>
         <tr>
@@ -23,11 +30,3 @@
     }
     </tbody>
 </table>
-
-<p>
-    @Html.ActionLink("Create", "Create", "Pasajero")
-</p>
-<p>
-    @Html.ActionLink("List by City", "ListaPorCiudad/Rosario", "Pasajero")
-    @Html.ActionLink("List by Birthday", "ListaPorFechaNacimiento", "Pasajero")
-</p>

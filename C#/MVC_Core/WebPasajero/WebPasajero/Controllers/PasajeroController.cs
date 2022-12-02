@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using System.Globalization;
 
 namespace WebPasajero.Controllers
 {
@@ -39,10 +40,12 @@ namespace WebPasajero.Controllers
 
         [HttpGet("/Pasajero/ListaPorFechaNacimiento/{FechaNacimiento}")] // Ruta personalizada HTTP
         //GET: /Pasajero/ListaPorFechaNacimiento/{FechaNacimiento}
-        public IActionResult ListaPorFechaNacimiento(DateTime fecha)
+        public IActionResult ListaPorFechaNacimiento(string fecha)
         {
+            var cultureInfo = new CultureInfo("en-US");
+            DateTime fechaDate = DateTime.Parse(fecha, cultureInfo, DateTimeStyles.NoCurrentDateDefault);
             List<Pasajero> lista = (from p in _context.Pasajeros
-                                  where p.FechaNacimiento == fecha
+                                  where p.FechaNacimiento == fechaDate
                                   select p).ToList();
             return View("Index", lista);            // RETORNO LISTA DE P. A VISTA INDEX
         }

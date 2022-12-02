@@ -5,6 +5,7 @@
 * {
     font-family: Arial;
     font-size: 14px; 
+    background-color: aliceblue;
 }
 
 @media (min-width: 800px) {
@@ -17,7 +18,7 @@
     }
 
     .left {
-        background-color: darkorange;
+        background-color: ghostwhite;
     }
 
     .right {
@@ -28,7 +29,7 @@
     .header {
         grid-column: 1 / 3; /*full width*/
         height: 3em;
-        background-color: yellow;
+        background-color: cornflowerblue;
     }
 
     .divided {
@@ -40,13 +41,12 @@
         height: 23em;
         width: 100%;
         align-self: start;
-        background-color: forestgreen;
     }
 
     aside {
         height: 23em;
         width: 100%;
         align-self: end;
-        background-color: greenyellow;
+        background-color: lightsteelblue;
     }
 }
