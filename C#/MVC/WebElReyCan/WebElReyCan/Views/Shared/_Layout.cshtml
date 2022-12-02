@@ -4,42 +4,40 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link href="~/Content/main.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <h2>Mi Sitio Web</h2>
         <section id="banner">
-
-            <img width="500" src="~/img/perro.jpg" />
+            <img width="500" height="250" src="~/Content/dog2.jpg" />
         </section>
 
         <section id="logo">
-            <p>Logo</p>
+            EL REY CAN - Peluqueria Canina
         </section>
 
         <section id="login">
-            <p>Login</p>
+            Login
         </section>
     </header>
 
     <nav>
-        @Html.ActionLink("Inicio", "Index", "Home")
-        @Html.ActionLink("Turnos", "Index", "Turno")
-        <!--TODO: Agregar el resto de los links-->
+        <ul>
+            <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+            <li>@Html.ActionLink("Turnos", "Index", "Turno")</li>
+        </ul>
     </nav>
 
     <main>
-        <p>Main</p>
         <aside id="left">
-            <p>Aside</p>
+            Aside
         </aside>
-
         <article>
-            Article @RenderBody()
+            @RenderBody()
         </article>
 
     </main>
 
-    <footer> Email: reycan@email.com </footer>
+    <footer> e-mail: elreycan@email.com </footer>
 </body>
 </html>

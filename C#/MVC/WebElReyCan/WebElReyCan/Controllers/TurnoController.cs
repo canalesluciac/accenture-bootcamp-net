@@ -23,16 +23,16 @@ namespace WebElReyCan.Controllers
             return View("Index", lista);
         }
 
-        [HttpGet]
+        // GET: Turno/Create
         public ActionResult Create()
         {
             Turno turno = new Turno();
             return View("Create", turno);
         }
+        // POST: Turno/Create/{turno}
         [HttpPost]
         public ActionResult Create(Turno turno)
         {
-
             if (ModelState.IsValid)
             {
                 context.Turnos.Add(turno);
@@ -66,7 +66,6 @@ namespace WebElReyCan.Controllers
         }
 
         // GET: /Turno/Delete/id
-        [HttpGet]
         public ActionResult Delete(int id)
         {
             Turno turno = context.Turnos.Find(id);
