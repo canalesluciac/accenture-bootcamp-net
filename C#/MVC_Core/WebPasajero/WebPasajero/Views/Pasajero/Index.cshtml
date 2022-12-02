@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebPasajero.Models.Pasajero>
+
+
+<p>
+    @Html.ActionLink("Create", "Create", "Pasajero")
+    @Html.ActionLink("List by City", "ListaPorCiudad", "Pasajero")
+    @Html.ActionLink("List by Birthday", "ListaPorFechaNacimiento", "Pasajero")
+</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>
+                @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+                </th>
+                <th>
+                @Html.DisplayNameFor(model => model.FechaNacimiento)
+                </th>
+                <th>
+                @Html.DisplayNameFor(model => model.Ciudad)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+                    <tr>
+                        <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                        </td>
+                        <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                        </td>
+                        <td>
+                    @Html.DisplayFor(modelItem => item.FechaNacimiento)
+                        </td>
+                            <td>
+                    @Html.DisplayFor(modelItem => item.Ciudad)
+                            </td>
+                    </tr>
+        }
+        </tbody>
+    </table>
