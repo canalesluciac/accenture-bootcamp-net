@@ -19,15 +19,8 @@ using MVCPubs;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Users\Lucía\Downloads\Accenture\bootcamp\C#\MVC_Core\MVCPubs\MVCPubs\Views\_ViewImports.cshtml"
-using MVCPubs.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e855d5a55415571f03dd2dfc0252c14bff912edd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5415412c36422f2872d02b89c94f9aa621bfaf6a", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
