@@ -1,0 +1,70 @@
+﻿@model IEnumerable<MVCPubs.Models.Store>
+@{
+    ViewData["Title"] = "Index - The Bookshop";
+    @Html.ActionLink("New Store", "Create", "Store")
+}
+
+@section quote {
+    “The more that you read, the more things you will know. The more that you learn, the more places you'll go” -Dr. Seuss
+}
+
+@section botd {
+    <h3>Book of the day</h3>
+            <a href="https://www.goodreads.com/book/show/37502596-the-5-am-club">
+                <img  height="350" src="~/book-of-the-day.jpg" alt="Book of the day: The 5 AM Club by Robin Sharma"/>
+            </a>
+    <p>The 5 AM Club, Robin Sharma</p>
+}
+
+<h1>Our Stores</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StorAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.State)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Zip)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StorAddress)
+                </td>
+                <td>
+                    @Html.ActionLink(item.City, "ListaPorCiudad", new {City = item.City}, null)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State)
+                </td>
+                     <td>
+                    @Html.DisplayFor(modelItem => item.Zip)
+                    </td>
+                <td>
+                    <a asp-action="TraerUna" asp-route-id="@item.StorId">Details</a> 
+                    <a asp-action="Edit" asp-route-id="@item.StorId">Edit</a> 
+                    <a asp-action="Delete" asp-route-id="@item.StorId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

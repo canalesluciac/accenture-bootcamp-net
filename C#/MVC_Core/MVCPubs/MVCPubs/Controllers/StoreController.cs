@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MVCPubs.Data;
+using Microsoft.EntityFrameworkCore;
 using MVCPubs.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace MVCPubs.Controllers
 {
@@ -15,13 +16,13 @@ namespace MVCPubs.Controllers
             _context = context;
         }
 
-        // GET: /Store 
+        // GET: /Store        --> == LISTA DATOS DE STORE
         public IActionResult Index()
         {
             return View(_context.Stores.ToList());
         }
 
-        // GET: /Store/Create
+        // GET: /Store/Create        --> == ALTA
         public IActionResult Create()
         {
             Store store = new Store();
@@ -32,21 +33,74 @@ namespace MVCPubs.Controllers
         [HttpPost]
         public IActionResult Create(Store store)
         {
-            _context.Add(store);
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            if (ModelState.IsValid)
+            {
+                _context.Stores.Add(store);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                return View("Create", store);
+
+            }
         }
 
-        //GET: /Store/Delete/1
-        public IActionResult Delete(int id)
+        // GET: /Store/Edit/1        --> == MODIFICACION
+        public IActionResult Edit(string id)
         {
-            var person = _context.Stores.SingleOrDefault(m => m.PersonId == id);
-            if (person != null)
+           Store store = _context.Stores.Find(id);
+            if (store == null)
             {
-                _context.Stores.Remove(person);
+                NotFound();
+            }
+            return View("Edit", store);
+        }
+
+        //POST : /Store/EditConfirmed/{id}
+        [HttpPost]
+        public IActionResult EditConfirmed(Store store)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Entry(store).State = EntityState.Modified;
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View("Edit", store);
+        }
+
+        //GET: /Store/Delete/1        --> == BAJA
+        public IActionResult Delete(string id)
+        {
+            var store = _context.Stores.SingleOrDefault(m => m.StorId == id);
+            if (store != null)
+            {
+                _context.Stores.Remove(store);
                 _context.SaveChanges();
             }
             return RedirectToAction(nameof(Index));
+        }
+
+        //GET /Store/TraerUna/{id}
+        public IActionResult TraerUna(string id)
+        {
+            Store store = _context.Stores.Find(id);
+            if (store == null)
+            {
+                return NotFound();
+            }
+            return View("TraerUna", store);
+        }
+
+        [HttpGet("/Store/ListaPorCiudad/{City}")]
+        //GET: /Store/ListaPorCiudad/{City}
+        public IActionResult ListaPorCiudad(string City)
+        {
+            List<Store> lista = (from s in _context.Stores
+                                    where s.City == City
+                                    select s).ToList();
+            return View("Index", lista);
         }
     }
 }

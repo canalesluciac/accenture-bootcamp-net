@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/main.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <section id="banner">
+            <img width="500" height="250" src="~/Content/dog2.jpg" />
+        </section>
+
+        <section id="logo">
+            EL REY CAN - Peluqueria Canina
+        </section>
+
+        <section id="login">
+            Login
+        </section>
+    </header>
+
+    <nav>
+        <ul>
+            <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+            <li>@Html.ActionLink("Turnos", "Index", "Turno")</li>
+        </ul>
+    </nav>
+
+    <main>
+        <aside id="left">
+            Aside
+        </aside>
+        <article>
+            @RenderBody()
+        </article>
+
+    </main>
+
+    <footer> e-mail: elreycan@email.com </footer>
+</body>
+</html>

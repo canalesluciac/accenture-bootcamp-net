@@ -8,29 +8,29 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace MVCPubs.Models
 {
-    public partial class pubsContext : DbContext
+    public partial class PubsContext : DbContext
     {
-        public pubsContext()
+        public PubsContext()
         {
         }
 
-        public pubsContext(DbContextOptions<pubsContext> options)
+        public PubsContext(DbContextOptions<PubsContext> options)
             : base(options)
         {
         }
 
         public virtual DbSet<Author> Authors { get; set; }
         public virtual DbSet<TheDiscount> Discounts { get; set; }
-        public virtual DbSet<Employee> Employee { get; set; }
+        public virtual DbSet<Employee> Employees { get; set; }
         public virtual DbSet<Job> Jobs { get; set; }
-        public virtual DbSet<PubInfo> PubInfo { get; set; }
+        public virtual DbSet<PubInfo> PubInfos { get; set; }
         public virtual DbSet<ThePublisher> Publishers { get; set; }
-        public virtual DbSet<Roysched> Roysched { get; set; }
+        public virtual DbSet<Roysched> Royscheds { get; set; }
         public virtual DbSet<Sale> Sales { get; set; }
         public virtual DbSet<Store> Stores { get; set; }
-        public virtual DbSet<Titleauthor> Titleauthor { get; set; }
+        public virtual DbSet<Titleauthor> Titleauthors { get; set; }
         public virtual DbSet<TheTitle> Titles { get; set; }
-        public virtual DbSet<Titleview> Titleview { get; set; }
+        public virtual DbSet<Titleview> Titleviews { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

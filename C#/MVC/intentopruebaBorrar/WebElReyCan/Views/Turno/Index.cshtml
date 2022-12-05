@@ -1,0 +1,35 @@
+﻿@model IEnumerable<WebElReyCan.Models.Turno>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Html.ActionLink("Nuevo", "Create", "Turno")
+
+<table>
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Fecha)</th>
+        <th>@Html.DisplayNameFor(model => model.Hora)</th>
+        <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+        <th>@Html.DisplayNameFor(model => model.Raza)</th>
+        <th>@Html.DisplayNameFor(model => model.NombreDuenio)</th>
+        <th>@Html.DisplayNameFor(model => model.Celular)</th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@Html.DisplayFor(modelItem => item.Fecha)</th>
+            <th>@Html.DisplayFor(modelItem => item.Hora)</th>
+            <th>@Html.DisplayFor(modelItem => item.Nombre)</th>
+            <th>@Html.DisplayFor(modelItem => item.Raza)</th>
+            <th>@Html.DisplayFor(modelItem => item.NombreDuenio)</th>
+            <th>@Html.DisplayFor(modelItem => item.Celular)</th>
+            <th>@Html.ActionLink("Edit", "Edit", new { id = item.Id })</th>
+            <th>@Html.ActionLink("Delete", "Delete", new { id = item.Id })</th>
+            
+        </tr>
+    }
+</table>

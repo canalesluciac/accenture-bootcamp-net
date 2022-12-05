@@ -1,8 +1,17 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+    ViewData["Title"] = "Home - Welcome to The Bookshop";
+    /*Layout = "~/Views/Shared/_Layout.cshtml";    */
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@section quote {
+"Read before you think, think before you speak" Fran Lebowitz
+}
+
+<h1>The Bookshop</h1>
+<h2>Welcome to The Bookshop online</h2>
+
+@Html.ActionLink("Our Stores", "Index", "Store") 
+
+
+

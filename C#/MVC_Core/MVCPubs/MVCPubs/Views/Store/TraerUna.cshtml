@@ -1,0 +1,44 @@
+﻿@model MVCPubs.Models.Store
+@{
+    ViewData["Title"] = "Details";
+}
+
+@section quote {
+    "I have always imagined that Paradise will be a kind of library." Jorge Luis Borges
+}
+
+<p>
+    @Html.ActionLink("Back to our stores", "Index")
+</p>
+<h1>"@Model.StorName"
+
+<p>
+    @Html.DisplayNameFor(model => model.StorId): 
+    @Html.DisplayFor(model => model.StorId)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.StorName):
+    @Html.DisplayFor(model => model.StorName)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.StorAddress):
+    @Html.DisplayFor(model => model.StorAddress)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.City):
+    @Html.DisplayFor(model => model.City)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.State):
+    @Html.DisplayFor(model => model.State)
+</p>
+
+<p>
+    @Html.DisplayNameFor(model => model.Zip):
+    @Html.DisplayFor(model => model.Zip)
+</p>
+
