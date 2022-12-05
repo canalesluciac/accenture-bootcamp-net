@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVCPubs.Validations;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 
@@ -15,6 +16,7 @@ namespace MVCPubs.Models
             Sales = new HashSet<Sale>();
         }
         [DisplayName("ID")]
+        [CheckValidIdLength]
         public string StorId { get; set; }
 
         [DisplayName("Name")]
@@ -22,6 +24,8 @@ namespace MVCPubs.Models
         [DisplayName("Address")]
         public string StorAddress { get; set; }
         public string City { get; set; }
+
+        [CheckValidState]
         public string State { get; set; }
         public string Zip { get; set; }
 

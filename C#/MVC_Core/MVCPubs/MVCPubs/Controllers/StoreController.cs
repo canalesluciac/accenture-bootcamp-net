@@ -57,9 +57,9 @@ namespace MVCPubs.Controllers
             return View("Edit", store);
         }
 
-        //POST : /Store/EditConfirmed/{id}
+        //POST : /Store/Edit/{id}
         [HttpPost]
-        public IActionResult EditConfirmed(Store store)
+        public IActionResult Edit(Store store)
         {
             if (ModelState.IsValid)
             {
@@ -100,6 +100,16 @@ namespace MVCPubs.Controllers
             List<Store> lista = (from s in _context.Stores
                                     where s.City == City
                                     select s).ToList();
+            return View("Index", lista);
+        }
+
+        [HttpGet("/Store/ListaPorEstado/{State}")]
+        //GET: /Store/ListaPorEstado/{State}
+        public IActionResult ListaPorEstado(string State)
+        {
+            List<Store> lista = (from s in _context.Stores
+                                 where s.State == State
+                                 select s).ToList();
             return View("Index", lista);
         }
     }

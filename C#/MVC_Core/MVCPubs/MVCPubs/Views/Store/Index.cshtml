@@ -36,7 +36,7 @@
              <th>
                 @Html.DisplayNameFor(model => model.Zip)
             </th>
-            <th></th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -53,7 +53,7 @@
                     @Html.ActionLink(item.City, "ListaPorCiudad", new {City = item.City}, null)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.State)
+                    @Html.ActionLink(item.State, "ListaPorEstado", new {State = item.State}, null)
                 </td>
                      <td>
                     @Html.DisplayFor(modelItem => item.Zip)
