@@ -71,7 +71,7 @@ namespace SistemaWebEmpleado.Controllers
 
         //POST : /Empleado/Edit/{id}
         [HttpPost]
-        public ActionResult EditConfirmed(int id)
+        public ActionResult Edit(int id)
         {
             Empleado empleado = _context.Empleados.Find(id);
 

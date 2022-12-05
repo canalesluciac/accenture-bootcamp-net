@@ -93,7 +93,7 @@ namespace WebElReyCan.Controllers
 
         //POST : Turno/Edit/{id}
         [HttpPost]
-        public ActionResult EditConfirmed(int id)
+        public ActionResult Edit(int id)
         {
             Turno turno = context.Turnos.Find(id);
 
